@@ -16,6 +16,7 @@ public class DepartmentService implements DepartmentImpl {
     public Department createDepartment(Department department) {
         departmentRepository.save(department);
         System.out.println("janithgit");
+        System.out.println("janithgit");
         return department;
 
     }
